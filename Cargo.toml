@@ -3,6 +3,5 @@ name = "test"
 version = "0.1.0"
 authors = ["Ted Mielczarek <ted@mielczarek.org>"]
 
-[dependencies.rusoto]
-features = ["s3"]
-version = "0.13.1"
+[dependencies]
+rusoto = "0.13.1"
